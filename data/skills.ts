@@ -1,0 +1,16 @@
+export const skills = [
+  { name: "HTML5",      icon: "🌐", level: 95, category: "frontend" },
+  { name: "CSS3",       icon: "🎨", level: 90, category: "frontend" },
+  { name: "JavaScript", icon: "⚡", level: 92, category: "frontend" },
+  { name: "React",      icon: "⚛️", level: 90, category: "frontend" },
+  // { name: "Angular",    icon: "🔺", level: 72, category: "frontend" },
+  { name: "Next.js",    icon: "▲",  level: 85, category: "frontend" },
+  { name: "Redux",      icon: "🔄", level: 80, category: "frontend" },
+  { name: "Zustand", icon: "🐻", level: 82, category: "frontend" },
+  { name: "Tailwind",   icon: "💨", level: 92, category: "frontend" },
+  { name: "Node.js",    icon: "🟢", level: 87, category: "backend" },
+  { name: "Express",    icon: "🚂", level: 85, category: "backend" },
+  { name: "MongoDB",    icon: "🍃", level: 83, category: "database" },
+  // { name: "MySQL",      icon: "🐬", level: 75, category: "database" },
+  { name: "GitHub",     icon: "🐙", level: 88, category: "tools" },
+];
