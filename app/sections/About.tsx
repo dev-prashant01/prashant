@@ -7,7 +7,6 @@ import { useRef } from "react";
 function calculateYearsFromSep2024() {
   const start = new Date(2023, 8, 1);
   const today = new Date();
-
   let years = today.getFullYear() - start.getFullYear();
 
   const hasNotCompletedYear =

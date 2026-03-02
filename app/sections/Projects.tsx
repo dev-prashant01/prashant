@@ -13,7 +13,7 @@ export default function Projects() {
   return (
     <section id="projects" className="border-t border-border py-24 px-6">
       <div className="max-w-6xl mx-auto" ref={ref}>
-        {/* Label */}
+
         <motion.div
           initial={{ opacity: 0, x: -20 }}
           animate={inView ? { opacity: 1, x: 0 } : {}}
@@ -67,10 +67,9 @@ export default function Projects() {
                 )}
               </div>
 
-              {/* Content */}
               <div className="p-5 flex flex-col flex-1">
                 <div className="font-mono text-[10px] text-accent tracking-[0.2em] mb-2">
-                  // PROJECT_{String(project.id).padStart(2, "0")}
+                  {/* PROJECT_{String(project.id).padStart(2, "0")} */}
                 </div>
 
                 <div className="flex items-start justify-between gap-2 mb-3">
@@ -120,7 +119,6 @@ export default function Projects() {
           ))}
         </div>
 
-        {/* View all */}
         <motion.div
           initial={{ opacity: 0 }}
           animate={inView ? { opacity: 1 } : {}}
